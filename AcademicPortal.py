@@ -8,7 +8,7 @@ urllib3.disable_warnings()
 # ============================================================
 # CẤU HÌNH
 # ============================================================
-BASE_URL = "https://gateway.sanchoi.iahn.hanoi.vn:30038"
+BASE_URL = ""
 PIN_LENGTH = 8
 PIN_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
@@ -19,8 +19,8 @@ RECHECK_REPEAT = 40  # số lần lặp khi cần đo lại để phân định
 admin_session = requests.Session()
 admin_session.verify = False
 admin_session.cookies.update({
-    "FCTF_Auth_Token": "eyJleHAiOjE3OTA2MjU3OTcsInJvdXRlIjoidGVhbS0xNC0yMDEtZmFrZS11bml2ZXJzaXR5LWFjYWRlbWljLXBvcnRhbC0xNzkwNjIzOTg4In0.e7lUCmTLdZSpz3NXkqhTgXCrXRmdyAFpDWbFORy3iGA",
-    "fap_session": "fap_dfe8769f044343e8806a58ed21b51fba0d4d63ae"
+    "FCTF_Auth_Token": "",
+    "fap_session": ""
 })
 
 
